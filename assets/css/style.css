@@ -3,7 +3,7 @@
 }
 :root {
     --primary: #0a0808c5;
-    --secondary:#8207a1;
+    --secondary:green;
     --tertiary: rgb(211, 56, 144);
     --white: rgb(255, 255, 255);
     font-size: 62.5%;

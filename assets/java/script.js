@@ -34,19 +34,19 @@ var QuestionIndex = 0
 // Array for quiz questions
 var questions = [
   { q:'What does var stand for in javascript?',
-    a: '2. variables',
+    a: '2.variables',
     choices:[{choice:'1.valuables'}, {choice: '2.variables'}, {choice: '3. videos'}]
   },
   { q: 'What do you need after every line in Javascript?',
-    a: '1. semi-colon;',
+    a: '1.semi-colon;',
     choices:[{choice:'1.semi-colon;'}, {choice: '2.smiley-face :-)'}, {choice: '3.period.'}]
   },
   { q: 'Which of the following is not an Javascript object?',
-    a: '4. Bodies',
+    a: '4.Bodies',
     choices: [{choice:'1.booleans'},{choice:'2.numbers'}, {choice:'3.arrays'}, {choice:'4.bodies'}]
   },
   { q: 'Does a website save data in localStorage?',
-    a: '1. yes',
+    a: '1.yes',
     choices:[{choice:'1.yes'}, {choice:'2.no'},]
   },
 ];
@@ -153,7 +153,7 @@ var answerWrong = function() {
 // check if answer is correct
 var answerCheck = function(event) {
   var selectedanswer = event.target
-    if (arrayShuffledQuestions[QuestionIndex].a == selectedanswer.innerText){
+    if(arrayShuffledQuestions[QuestionIndex].a == selectedanswer.innerText){
       answerCorrect()
       score = score + 7
     }
