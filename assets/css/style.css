@@ -44,7 +44,7 @@
       padding-right: 20px;
   }
 
-  /*Main content */
+  /*body */
 .container {
       padding: 20px;
       flex-direction: column;
@@ -116,7 +116,7 @@
       text-align: left;
   }
 
-  /*Button Styling */
+  /*Button  */
   .btn {
       background: var(--secondary);
       color: var(--white);
